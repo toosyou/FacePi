@@ -1,0 +1,3 @@
+[submodule "openface_pi"]
+	path = openface_pi
+	url = git@github.com:toosyou/openface_pi.git

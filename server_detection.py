@@ -60,7 +60,7 @@ class MainHandler(tornado.web.RequestHandler):
         processing_time = time.time()
         scores = classifier.infer('./data/train/classifier.pkl', cv2image, True)
         processing_time = time.time() - processing_time
-        
+
         # update score
         global curr_score
         global get_curr

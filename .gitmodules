@@ -1,0 +1,6 @@
+[submodule "openface_pi"]
+	path = openface_pi
+	url = git@github.com:toosyou/openface_pi.git
+[submodule "speaker-recognition"]
+	path = speaker-recognition
+	url = git@github.com:toosyou/speaker-recognition.git
